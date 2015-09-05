@@ -1,0 +1,43 @@
+/*Override Deafult Bootstrap*/
+
+body{
+    outline:none;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    outline:none;
+}
+
+#dashboard-side{
+    min-height: 500px;
+    background-color: #409ad5;
+}
+
+#dashboard-main{
+    min-height: 500px;
+    background-color: #f2f2f2;
+}
+
+.todo_complete{
+    color: greenyellow;
+}
+
+.todo_complete:hover{
+    color: green;
+}
+
+.list_items{
+    border-bottom: 1px solid black;
+    /*margin: 20px 0;*/
+}
+
+div.list_items:hover{
+    background-color: gainsboro;
+    border-radius: 12px;
+}
+
+.todo_update{
+    /*margin-left:80%;*/
+}

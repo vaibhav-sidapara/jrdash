@@ -77,7 +77,8 @@ class Api extends CI_Controller{
             'login'=>$login,
             'password'=>hash('sha256', $password.SALT),
             'email'=>$email,
-            'date_added'=> DATETIME
+            'date_added'=> DATETIME,
+            'date_modified'=> DATETIME,
         ]);
 
         if($result){
@@ -107,7 +108,8 @@ class Api extends CI_Controller{
         $result = $this->todo_model->insert([
             'user_id'=> $this->session->userdata('user_id'),
             'content'=> $this->input->post('content'),
-            'date_added' => DATETIME
+            'date_added' => DATETIME,
+            'date_modified' => DATETIME,
         ]);
 
         if ($result){
@@ -203,7 +205,8 @@ class Api extends CI_Controller{
             'user_id'=> $this->session->userdata('user_id'),
             'title'=> $this->input->post('title'),
             'content'=> $this->input->post('content'),
-            'date_added' => DATETIME
+            'date_added' => DATETIME,
+            'date_modified' => DATETIME,
         ]);
 
         if ($result){

@@ -6,7 +6,7 @@
 
 RewriteEngine On
 # Your Directory in xampp/htdocs/
-RewriteBase /phpstorm/jrdash
+RewriteBase /learn/jrdash
 
 RewriteCond %{REQUEST_URI} ^system.*
 RewriteRule ^(.*)$ /index.php?/$1 [L]

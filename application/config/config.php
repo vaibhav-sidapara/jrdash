@@ -29,7 +29,7 @@ function __autoload($class){
 | environments.
 |
 */
-$config['base_url'] = 'http://localhost/phpstorm/jrdash/';
+$config['base_url'] = '';
 
 /*
 |--------------------------------------------------------------------------

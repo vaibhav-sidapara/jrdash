@@ -1,6 +1,6 @@
 jrDash is a simple Todo List and Notes, create and manage Web-App, Developed in CodeIgniter and Designed using Bootstrap Framework.
 
-- User 		Login | Register.
+- User   | Login  | Register.
 - Create | Update | Delete Todo List.
 - Create | Update | Delete Notes.
 
